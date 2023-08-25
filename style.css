@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#worthy {
+    background-image: url(./Images/bg1.png);
+    background-repeat: inherit;    
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 1rem;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+#menu-list ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: armata;
+}
+
+#menu-list a:hover {
+    opacity: 0.5;
+}
+
+#slideshow {
+    background-color: #9fc63f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.mySlides {
+    background-image: url(./Images/slide.png);
+    background-repeat: no-repeat;
+    background-position:0 1.5rem;
+    background-size:60% auto ;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 960px;
+    text-align: end;
+    padding-top: 20px;
+
+}
+
+.mySlides h2 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-family: armata;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-left: 50%;
+    padding-top:6%;
+    padding-bottom: 22%;
+    
+}
+
+#backward a:hover {
+    opacity: 0.7;
+}
+
+.ward {
+    cursor: pointer;
+}
+
+.ward:active {
+    opacity: 0.3;
+}
+
+#forward a:hover {
+    opacity: 0.7;
+}
+
+#quote {
+    text-transform: uppercase;
+    font-family: armata;
+    max-width: 960px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+}
+
+#quote h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 2rem auto;
+
+}
+
+span {
+    color: rgb(144, 183, 66);
+}
+
+#quote hr {
+    border: 1px dashed #dfdfdf;    
+}
+
+#featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.features {
+    display: block;
+    margin: 0 auto;
+}
+
+.outside {
+    background-color: white;
+    border-radius: 100%;
+    padding: 1rem;
+    border: 1px solid #c7c2c2;
+}
+
+.inside {
+    background-color: #9fc63f;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border: 1px solid #c7c2c2;
+}
+
+.features h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: armata;
+}
+
+.features p {
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-family: armata;
+    font-size: 0.8rem;
+}
+
+#port-text {
+    max-width: 960px;
+    margin: auto;
+    position: relative;
+}
+
+#port-text h2 {
+    font-size: 1.5rem;
+    text-align: start;
+    letter-spacing: 2px;
+    margin: 2rem auto;
+    text-transform: uppercase;
+    font-family: armata;
+    padding-left: 2rem;
+}
+
+#portfolio {
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.port-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin-right: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.port-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.port-foto {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #dfdfdf;
+    background-image: url(./Images/portofolio-item.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.port-content {
+    background-color: white;
+    border: 1px solid #dfdfdf;
+    padding: 0.7rem;
+}
+
+.port-content h3 {
+    text-transform: uppercase;
+    font-family: armata;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.port-content button {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: armata;
+    font-weight: 500;
+    font-size: 0.7rem;
+    color: white;
+    background-color: #9fc63f;
+    border: none;
+    padding: 0.3rem;
+    margin: 0.6rem 0;
+    cursor: pointer;
+}
+
+.port-content button:hover {
+    opacity: 0.8;
+}
+
+.port-content button:active {
+    opacity: 0.3;
+}
+
+.port-content p {
+    font-family: armata;
+    font-size: 0.7rem;
+    margin: 0;
+    padding: 0;
+}
+
+#port-text2 {
+    max-width: 960px;
+    margin: auto;
+    position: relative;
+}
+
+.l {
+    float: left;
+    width: 2.7%;
+    border: 1px dashed #a7a7a7;
+    position: absolute;
+    top: 0.93rem;
+}
+
+.r {
+    float: right;
+    width: 60%;
+    border: 1px dashed #a7a7a7;
+    position: absolute;
+    top: 0.93rem;
+    left: 40%;
+}
+
+#port-text2 h2 {
+    font-size: 1.5rem;
+    text-align: start;
+    letter-spacing: 2px;
+    margin: 2rem auto;
+    text-transform: uppercase;
+    font-family: armata;
+    padding-left: 2rem;
+}
+
+#sponsors {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+}
+
+#spons-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+#spons-list li {
+    background-image: url(./Images/adv_background.png);
+}
+
+footer {
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 2rem auto;
+}
+
+#l-about {
+    display: block;
+    margin-right: 2rem;
+}
+
+#l-about h4 {
+    font-size: 1.2rem;
+    text-align: start;
+    margin: 1.5rem auto;
+    text-transform: uppercase;
+    font-family: armata;
+}
+
+#l-about p {
+    font-family: armata;
+    font-size: 0.8rem;
+}
+
+#social {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85%;
+}
+
+#archives {
+    display: block;
+    margin: 0 2rem;
+}
+
+#archives h4 {
+    font-size: 1.2rem;
+    text-align: start;
+    margin: 1.5rem auto;
+    text-transform: uppercase;
+    font-family: armata;
+}
+
+#archives p {
+    font-size: 0.8rem;
+    text-align: start;
+    text-transform: capitalize;
+    font-family: armata;
+}
+
+#archives hr {
+    border: 1px dashed #dfdfdf;
+    margin: 0.8rem 0;
+}
+
+#contact-us {
+    display: block;
+    margin: 0 2rem;
+}
+
+#contact-us h4 {
+    font-size: 1.2rem;
+    text-align: start;
+    margin: 1.5rem auto;
+    text-transform: uppercase;
+    font-family: armata;
+}
+
+#contact-us ul {
+    list-style-type: none;
+}
+
+#contact-us li {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 1.3rem auto;
+}
+
+#contact-us img {
+    width: 1.8rem;
+    margin-right: 0.2rem;
+}
+
+#contact-us p {
+    font-size: 0.75rem;
+    text-align: start;
+    text-transform: lowercase;
+    font-family: armata;
+}
+
+#signto {
+    display:block;
+    margin-left: 2rem;
+}
+
+#signto h4 {
+    font-size: 1.2rem;
+    text-align: start;
+    margin: 1.5rem auto;
+    text-transform: uppercase;
+    font-family: armata;
+}
+
+#name {
+    width: 100%;
+    height: 2rem;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    border-bottom: 1px solid #c7c2c2;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: armata;
+    text-indent: 0.4rem;
+}
+
+#mail {
+    width: 100%;
+    height: 2rem;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    border-bottom: 1px solid #c7c2c2;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: armata;
+    margin: 1rem 0;
+    text-indent: 0.4rem;
+}
+
+#submit {
+    width: 45%;
+    height: 2rem;
+    border: none;
+    background-color: #9fc63f;
+    margin: 1rem 0;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: 400;
+    font-family: armata;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 55%;
+}
+
+#submit:hover {
+    opacity: 0.8;
+}
+
+#submit:active {
+    opacity: 0.3;
+}
